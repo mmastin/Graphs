@@ -45,6 +45,7 @@ def get_neighbors(w):
     letter_list = list(w)
     for i in range(len(letter_list)):
         # for each letter in the alphabet
+        # O(m) where m is the number of letters in the alphabet
         for letter in alphabet:
             # replace the word letter with that alphabet
             temp_word = list(letter_list)
